@@ -5,7 +5,7 @@ reviews that have the highest overlap with the input query.
 # Stacks used
 django, djangorestframework
 
-##Dataset
+## Dataset
 Use the dataset available at ​ [http://snap.stanford.edu/data/web​](http://snap.stanford.edu/data/web​) FineFoods.html​ .
 Use this ​ [alternate download link](https://drive.google.com/file/d/0B8_VSW2-5XmpSTNlZXV4cVdLRUE/view)​ in case of issues
 
