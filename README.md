@@ -6,17 +6,17 @@ reviews that have the highest overlap with the input query.
 django, djangorestframework
 
 ##Dataset
-Use the dataset available at ​ [http://snap.stanford.edu/data/web​] (http://snap.stanford.edu/data/web​) FineFoods.html​ .
+Use the dataset available at ​ [http://snap.stanford.edu/data/web​](http://snap.stanford.edu/data/web​) FineFoods.html​ .
 Use this ​ [alternate download link](https://drive.google.com/file/d/0B8_VSW2-5XmpSTNlZXV4cVdLRUE/view)​ in case of issues
 
 # project setup
 1. git clone 
 ```html
-https://github.com/Chandrabhushan01/myskinny.git
+https://github.com/Chandrabhushan01/tasty_search.git
 ```
-2. go to myskinny directory by: cd myskinny
-3. create a virtualenv using: python3 -m venv . (install python3 on your machine if not already installed)
-4. activate environment using: source bin/activate
+2. go to tasty_search directory by: cd tasty_search
+3. create a virtualenv using: python3 -m venv . (install python3 on your machine if not already installed) or virtualenv venv (for python 2)
+4. activate environment using: source bin/activate or source venv/bin/activate(for python 2)
 5. upgrade pip using: pip install --upgrade pip
 6. curl https://bootstrap.pypa.io/get-pip.py | python
 7. install requirements using: pip install -r requirements.txt
