@@ -39,3 +39,5 @@ Possible Options:
 * output_file_2: Path of file for indexed data by reviews.(Default: assets/indexed_data_2.txt)
 11. run: python manage.py runserver
 
+# Live Demo on AWS
+Link to live demo: http://107.22.70.129/api/v1/search/

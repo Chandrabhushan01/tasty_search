@@ -89,6 +89,6 @@ class Command(BaseCommand):
         output_file = options.get('output_file')
         count = options.get('count')
 
-        self.stdout.write(">> Please sit back and relax while creating small sample to %d is being done!" % (count, ))
+        self.stdout.write(">> Wait while creating small sample of %d is in proccess!" % (count, ))
         self.get_small_sample(input_file, output_file, count)
         self.stdout.write(">> Small sample file of reviews successfully created!")
